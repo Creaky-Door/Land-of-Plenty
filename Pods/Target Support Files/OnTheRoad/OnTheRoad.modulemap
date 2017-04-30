@@ -1,0 +1,6 @@
+framework module OnTheRoad {
+  umbrella header "OnTheRoad-umbrella.h"
+
+  export *
+  module * { export * }
+}

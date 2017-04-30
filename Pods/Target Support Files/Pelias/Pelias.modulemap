@@ -1,0 +1,6 @@
+framework module Pelias {
+  umbrella header "Pelias-umbrella.h"
+
+  export *
+  module * { export * }
+}

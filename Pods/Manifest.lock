@@ -1,0 +1,37 @@
+PODS:
+  - Mapzen-ios-sdk (0.4.0):
+    - Mapzen-ios-sdk/Core (= 0.4.0)
+  - Mapzen-ios-sdk/Core (0.4.0):
+    - OnTheRoad (~> 1.0.0)
+    - Pelias (~> 1.0.1)
+    - Tangram-es (~> 0.5.1)
+  - OnTheRoad (1.0.0)
+  - Pelias (1.0.1):
+    - Pelias/Core (= 1.0.1)
+  - Pelias/Core (1.0.1)
+  - Tangram-es (0.5.2)
+
+DEPENDENCIES:
+  - Mapzen-ios-sdk (from `https://github.com/mapzen/ios.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Mapzen-ios-sdk:
+    :branch: master
+    :git: https://github.com/mapzen/ios.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  Mapzen-ios-sdk:
+    :commit: 1fa2c88f73373bcc0a2fb186c51863ab4213f3f1
+    :git: https://github.com/mapzen/ios.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  Mapzen-ios-sdk: 74d739d250b3071c0a862a3c711bb14a91d9d260
+  OnTheRoad: 23aeab6259df1bc005457795e255730178c97fdf
+  Pelias: e32abfaf0c0de756d60bf4283d17c3e8e047d87d
+  Tangram-es: 173ce01650f3de4e6f5c7b4e7280156f50c19d06
+
+PODFILE CHECKSUM: 5ddc2fe16529654d58e2a6f68812cb4b1bea40be
+
+COCOAPODS: 1.2.0

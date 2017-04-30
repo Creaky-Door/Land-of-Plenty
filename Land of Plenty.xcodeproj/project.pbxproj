@@ -15,6 +15,7 @@
 		2DA1051D1E904DBC00F31FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA1051B1E904DBC00F31FEF /* Main.storyboard */; };
 		2DA1051F1E904DBC00F31FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA1051E1E904DBC00F31FEF /* Assets.xcassets */; };
 		2DA105221E904DBC00F31FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA105201E904DBC00F31FEF /* LaunchScreen.storyboard */; };
+		5ACAEE56B30E83691B06FC23 /* Pods_Land_of_Plenty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,9 @@
 		2DA1051E1E904DBC00F31FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA105211E904DBC00F31FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA105231E904DBC00F31FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631CC15B4BAE13873E322D4E /* Pods-Land of Plenty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Land of Plenty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty.release.xcconfig"; sourceTree = "<group>"; };
+		AC330A3D5DEFD186D6DE28AC /* Pods-Land of Plenty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Land of Plenty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty.debug.xcconfig"; sourceTree = "<group>"; };
+		D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Land_of_Plenty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ACAEE56B30E83691B06FC23 /* Pods_Land_of_Plenty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08CEFE331F9B379CA02A318D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC330A3D5DEFD186D6DE28AC /* Pods-Land of Plenty.debug.xcconfig */,
+				631CC15B4BAE13873E322D4E /* Pods-Land of Plenty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2DA105051E904DBC00F31FEF = {
 			isa = PBXGroup;
 			children = (
 				2DA105101E904DBC00F31FEF /* Land of Plenty */,
 				2DA1050F1E904DBC00F31FEF /* Products */,
+				08CEFE331F9B379CA02A318D /* Pods */,
+				3D4356D1BF75016169749A1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,14 @@
 			path = "Land of Plenty";
 			sourceTree = "<group>";
 		};
+		3D4356D1BF75016169749A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DA105261E904DBC00F31FEF /* Build configuration list for PBXNativeTarget "Land of Plenty" */;
 			buildPhases = (
+				4B70EFA9D08DA85C3269D483 /* [CP] Check Pods Manifest.lock */,
 				2DA1050A1E904DBC00F31FEF /* Sources */,
 				2DA1050B1E904DBC00F31FEF /* Frameworks */,
 				2DA1050C1E904DBC00F31FEF /* Resources */,
+				A8212015B1C8E50FB815C16F /* [CP] Embed Pods Frameworks */,
+				1A99720218BEB0CD83699295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +169,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A99720218BEB0CD83699295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B70EFA9D08DA85C3269D483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8212015B1C8E50FB815C16F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DA1050A1E904DBC00F31FEF /* Sources */ = {
@@ -271,6 +346,7 @@
 		};
 		2DA105271E904DBC00F31FEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC330A3D5DEFD186D6DE28AC /* Pods-Land of Plenty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57TPTK935L;
@@ -284,6 +360,7 @@
 		};
 		2DA105281E904DBC00F31FEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631CC15B4BAE13873E322D4E /* Pods-Land of Plenty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57TPTK935L;
