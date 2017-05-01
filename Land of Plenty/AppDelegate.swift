@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Mapzen_ios_sdk
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MapzenManager.sharedManager.apiKey = "mapzen-r7T1gq"
+        
         return true
     }
 

@@ -8,24 +8,53 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>OnTheRoad.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Pelias.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-Land of Plenty.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>00EF084F6E77A0D8BE46280E326CDE9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5380B63A8882C1A0AF4512BC5137F9B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E5D29D888D42904291FECE8FC1AB7C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>911AB13E1A01D6E299DBD5B7DAA5DE50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

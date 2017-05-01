@@ -16,7 +16,25 @@
 		2DA1051F1E904DBC00F31FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA1051E1E904DBC00F31FEF /* Assets.xcassets */; };
 		2DA105221E904DBC00F31FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA105201E904DBC00F31FEF /* LaunchScreen.storyboard */; };
 		5ACAEE56B30E83691B06FC23 /* Pods_Land_of_Plenty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */; };
+		AC8168E71EB6A10000101EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8168E61EB6A10000101EAA /* HomeViewController.swift */; };
+		AC8168E91EB6A24F00101EAA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8168E81EB6A24F00101EAA /* GLKit.framework */; };
+		AC8168ED1EB6B03400101EAA /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8168EA1EB6B03400101EAA /* red_dot.png */; };
+		AC8168EE1EB6B03400101EAA /* red_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8168EB1EB6B03400101EAA /* red_dot@2x.png */; };
+		AC8168EF1EB6B03400101EAA /* red_dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8168EC1EB6B03400101EAA /* red_dot@3x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC8168E51EB69F3C00101EAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2DA1050E1E904DBC00F31FEF /* Land of Plenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Land of Plenty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +49,11 @@
 		2DA105231E904DBC00F31FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631CC15B4BAE13873E322D4E /* Pods-Land of Plenty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Land of Plenty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty.release.xcconfig"; sourceTree = "<group>"; };
 		AC330A3D5DEFD186D6DE28AC /* Pods-Land of Plenty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Land of Plenty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Land of Plenty/Pods-Land of Plenty.debug.xcconfig"; sourceTree = "<group>"; };
+		AC8168E61EB6A10000101EAA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC8168E81EB6A24F00101EAA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AC8168EA1EB6B03400101EAA /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
+		AC8168EB1EB6B03400101EAA /* red_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_dot@2x.png"; sourceTree = "<group>"; };
+		AC8168EC1EB6B03400101EAA /* red_dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_dot@3x.png"; sourceTree = "<group>"; };
 		D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Land_of_Plenty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -39,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8168E91EB6A24F00101EAA /* GLKit.framework in Frameworks */,
 				5ACAEE56B30E83691B06FC23 /* Pods_Land_of_Plenty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +105,10 @@
 				2DA105151E904DBC00F31FEF /* Actions.sks */,
 				2DA105171E904DBC00F31FEF /* GameScene.swift */,
 				2DA105191E904DBC00F31FEF /* GameViewController.swift */,
+				AC8168EA1EB6B03400101EAA /* red_dot.png */,
+				AC8168EB1EB6B03400101EAA /* red_dot@2x.png */,
+				AC8168EC1EB6B03400101EAA /* red_dot@3x.png */,
+				AC8168E61EB6A10000101EAA /* HomeViewController.swift */,
 				2DA1051B1E904DBC00F31FEF /* Main.storyboard */,
 				2DA1051E1E904DBC00F31FEF /* Assets.xcassets */,
 				2DA105201E904DBC00F31FEF /* LaunchScreen.storyboard */,
@@ -92,6 +120,7 @@
 		3D4356D1BF75016169749A1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC8168E81EB6A24F00101EAA /* GLKit.framework */,
 				D74ED5F5098D237B00838366 /* Pods_Land_of_Plenty.framework */,
 			);
 			name = Frameworks;
@@ -110,6 +139,7 @@
 				2DA1050C1E904DBC00F31FEF /* Resources */,
 				A8212015B1C8E50FB815C16F /* [CP] Embed Pods Frameworks */,
 				1A99720218BEB0CD83699295 /* [CP] Copy Pods Resources */,
+				AC8168E51EB69F3C00101EAA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,7 +162,7 @@
 				TargetAttributes = {
 					2DA1050D1E904DBC00F31FEF = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 57TPTK935L;
+						DevelopmentTeam = V92JXY7WT5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,8 +193,11 @@
 				2DA1051D1E904DBC00F31FEF /* Main.storyboard in Resources */,
 				2DA105141E904DBC00F31FEF /* GameScene.sks in Resources */,
 				2DA1051F1E904DBC00F31FEF /* Assets.xcassets in Resources */,
+				AC8168ED1EB6B03400101EAA /* red_dot.png in Resources */,
 				2DA105221E904DBC00F31FEF /* LaunchScreen.storyboard in Resources */,
+				AC8168EF1EB6B03400101EAA /* red_dot@3x.png in Resources */,
 				2DA105161E904DBC00F31FEF /* Actions.sks in Resources */,
+				AC8168EE1EB6B03400101EAA /* red_dot@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +259,7 @@
 				2DA105181E904DBC00F31FEF /* GameScene.swift in Sources */,
 				2DA1051A1E904DBC00F31FEF /* GameViewController.swift in Sources */,
 				2DA105121E904DBC00F31FEF /* AppDelegate.swift in Sources */,
+				AC8168E71EB6A10000101EAA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,12 +383,13 @@
 			baseConfigurationReference = AC330A3D5DEFD186D6DE28AC /* Pods-Land of Plenty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57TPTK935L;
+				DEVELOPMENT_TEAM = V92JXY7WT5;
 				INFOPLIST_FILE = "Land of Plenty/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.creaky-door.Land-of-Plenty";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,12 +398,13 @@
 			baseConfigurationReference = 631CC15B4BAE13873E322D4E /* Pods-Land of Plenty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57TPTK935L;
+				DEVELOPMENT_TEAM = V92JXY7WT5;
 				INFOPLIST_FILE = "Land of Plenty/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.creaky-door.Land-of-Plenty";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -391,6 +427,7 @@
 				2DA105281E904DBC00F31FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
